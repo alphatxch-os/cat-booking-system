@@ -1,0 +1,18 @@
+﻿<Window x:Class="cat_booking_system.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cat_booking_system"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Check-in" HorizontalAlignment="Left" Height="22" Margin="279,245,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="291,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="148"><Run Text="User Interfa"/><Run Language="en-gb" Text="ce:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="279,172,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="118"  Name ="NameBlock" Height="16"/>
+        <Calendar HorizontalAlignment="Left" Height="133" Margin="74,134,0,0" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="279,200,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Name="CatOwnerID" Width="118"  Height="16"/>
+        <TextBox Name="KittenCode" HorizontalAlignment="Left" Margin="424,217,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="118"  Height="16"/>
+
+    </Grid>
+</Window>
